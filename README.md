@@ -1,12 +1,55 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ⚛️ Ejercicio React + Vite + PropTypes
 
-Currently, two official plugins are available:
+Este es un proyecto sencillo creado con **React + Vite**, usando **Yarn** como manejador de paquetes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Cómo correr el proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Instala las dependencias:
+
+   ```bash
+   yarn
+    ````
+
+2. Inicia el servidor de desarrollo:
+
+   ```bash
+   yarn dev
+   ```
+
+> Asegúrate de tener **Node.js** y **Yarn** instalados.
+
+---
+
+## 🎯 ¿Cuál es el propósito?
+
+Este proyecto no está pensado para producción ni como demo visual.
+Es una prueba deliberada de **errores de PropTypes**, diseñada para:
+
+* Verificar que los warnings de `PropTypes` funcionen correctamente
+* Comprobar que el entorno de desarrollo (Vite + React) los detecte
+
+---
+
+## 🧪 Notas personales
+
+> Si estás viendo esto, probablemente eres **Vic** o **Santi** 👋
+> ¡Gracias por darte la vuelta! No esperen un sistema elegante, esto fue más bien una pelea mía con Chrome 😅
+
+⚠️ Chrome no me estaba mostrando **nada de nada** en consola al principio...
+Hasta que descubrí que había metido el `index.html` en la carpeta equivocada (`/public`) 🙃
+Spoiler: **en Vite debe ir en la raíz**.
+
+---
+
+## 🧠 TL;DR
+
+* Este repo **no es fancy**
+* Es solo una prueba para ver **cómo se rompen los `PropTypes`**
+* Y cómo **React se enoja si le das tipos mal pasados** 😈
+
+---
+
+Made with 💻 by Mando 🧠
