@@ -1,0 +1,53 @@
+/* Estilo global */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117; /* oscuro, tipo GitHub dark */
+  color: #00ff88; /* verde neón suave */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Contenedor principal */
+#root, .app {
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #00ff88;
+  margin-bottom: 1rem;
+}
+
+/* Botones */
+button {
+  background-color: transparent;
+  border: 2px solid #00ff88;
+  color: #00ff88;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00ff88;
+  color: #0d1117;
+}
+
+/* Cuadro de resultados o consola */
+.console-box {
+  background-color: #161b22;
+  color: #00ff88;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 600px;
+}
